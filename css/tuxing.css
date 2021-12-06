@@ -1,0 +1,44 @@
+#tuxing-gongzhuan-guidao {
+    position: absolute;
+    top: calc(50% - 100px - 15px - 25px - 20px - 18px - 50px - 25px);
+    left: calc(50% - 100px - 15px - 25px - 20px - 18px - 50px - 25px);
+    width: calc((100px + 15px + 25px + 20px + 18px + 50px + 25px) * 2);
+    height: calc((100px + 15px + 25px + 20px + 18px + 50px + 25px) * 2);
+    animation: nishizhen-gongzhuan 12s linear infinite;
+    z-index: 993;
+}
+
+#tuxing-zizhuan-guidao {
+    position: absolute;
+    animation: shunshizhen-zizhuan 1s linear infinite;
+}
+
+#tuxing {
+    width: calc(25px * 2);
+    height: calc(25px * 2);
+    background-color: rgba(211, 136, 86, 0.73);
+    box-shadow: 0 0 10px white;
+}
+
+#tuxing .baiban {
+    position: absolute;
+    box-shadow: 0 0 40px white;
+}
+
+#tuxing .baiban:nth-child(1) {
+    top: 75%;
+    left: 65%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#tuxing .baiban:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#tuxing .baiban:nth-child(3) {
+    top: 25%;
+    left: 20%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}

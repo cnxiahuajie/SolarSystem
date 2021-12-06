@@ -1,0 +1,39 @@
+
+#taiyangguidao {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    z-index: 999;
+    animation: nishizhen-gongzhuan 10s linear infinite;
+
+}
+
+#taiyang {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    box-shadow: 0 0 20px gold;
+}
+
+#taiyang .heiban {
+    position: absolute;
+    box-shadow: 0 0 20px rgb(238, 98, 4, 1);
+    text-shadow: 0 0 20px rgb(238, 98, 4, 1);
+    width: 10px;
+    height: 10px;
+}
+
+#taiyang .heiban:nth-child(1) {
+    top: 25%;
+    left: 25%;
+}
+
+#taiyang .heiban:nth-child(2) {
+    top: 50%;
+    left: 75%;
+}
+
+#taiyang .heiban:nth-child(3) {
+    top: 75%;
+    left: 50%;
+}

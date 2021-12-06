@@ -1,0 +1,43 @@
+#muxing-gongzhuan-guidao {
+    position: absolute;
+    top: calc(50% - 100px - 15px - 25px - 20px - 18px - 50px);
+    left: calc(50% - 100px - 15px - 25px - 20px - 18px - 50px);
+    width: calc((100px + 15px + 25px + 20px + 18px + 50px) * 2);
+    height: calc((100px + 15px + 25px + 20px + 18px + 50px) * 2);
+    animation: nishizhen-gongzhuan 24s linear infinite;
+    z-index: 994;
+}
+
+#muxing-zizhuan-guidao {
+    position: absolute;
+    animation: shunshizhen-zizhuan 1s linear infinite;
+}
+
+#muxing {
+    width: calc(50px * 2);
+    height: calc(50px * 2);
+    background-color: rgba(218, 112, 13, 0.88);
+    box-shadow: 0 0 4px white;
+}
+
+#muxing .baiban {
+    position: absolute;
+}
+
+#muxing .baiban:nth-child(1) {
+    top: 75%;
+    left: 65%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#muxing .baiban:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#muxing .baiban:nth-child(3) {
+    top: 25%;
+    left: 20%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}

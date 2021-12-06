@@ -1,0 +1,44 @@
+#diqiu-gongzhuan-guidao {
+    position: absolute;
+    top: calc(50% - 100px - 15px - 25px - 20px);
+    left: calc(50% - 100px - 15px - 25px - 20px);
+    width: calc((100px + 15px + 25px + 20px) * 2);
+    height: calc((100px + 15px + 25px + 20px) * 2);
+    animation: nishizhen-gongzhuan 10s linear infinite;
+    z-index: 996;
+}
+
+#diqiu-zizhuan-guidao {
+    position: absolute;
+    animation: shunshizhen-zizhuan 1s linear infinite;
+}
+
+#diqiu {
+    width: calc(20px * 2);
+    height: calc(20px * 2);
+    background-color: rgb(47, 47, 213);
+    box-shadow: 0 0 10px white;
+}
+
+#diqiu .baiban {
+    position: absolute;
+    box-shadow: 0 0 40px white;
+}
+
+#diqiu .baiban:nth-child(1) {
+    top: 75%;
+    left: 65%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#diqiu .baiban:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#diqiu .baiban:nth-child(3) {
+    top: 25%;
+    left: 20%;
+    border: 1px solid rgba(255, 255, 255, 1);
+}

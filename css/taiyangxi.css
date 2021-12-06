@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#taiyangxi {
+    width: calc(100vw);
+    height: calc(100vh);
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.guidao {
+    border: 1px solid red;
+}
+
+/*逆时针公转*/
+@keyframes nishizhen-gongzhuan {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*顺时针自转*/
+@keyframes shunshizhen-zizhuan {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/*逆时针自转*/
+@keyframes shunshizhen-zizhuan {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
